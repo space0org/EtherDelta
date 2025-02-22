@@ -1,6 +1,6 @@
 {
   "contractEtherDelta": "0x6b42887139b219f132D870C814Cd1f67530eB33B",
-  "contractToken": "0xFb44839BA5D5E8b1CCed3Be3b8779d856377c9a3",
+  "contractToken": "0x584Eb690150fCFE613926E5191CaAAe75e15aAf6",
   "ethTestnet": true,
   "ethChainId": 11155111,
   "ethProvider": "https://sepolia.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161",
@@ -27,6 +27,7 @@
     }
   ],
   "tokens": [
-    {"addr":"0x0000000000000000000000000000000000000000","name":"ETH","decimals":18}
+    {"addr":"0x0000000000000000000000000000000000000000","name":"ETH","decimals":18},
+    {"addr":"0x584Eb690150fCFE613926E5191CaAAe75e15aAf6","name":"TEST","decimals":18}
   ]
 }

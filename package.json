@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "main": "truffle-config.js",
   "directories": {
+    "doc": "docs",
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server . -p 8080"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +20,8 @@
     "@truffle/hdwallet-provider": "^2.1.15",
     "dotenv": "^16.4.7",
     "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }

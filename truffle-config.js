@@ -41,13 +41,8 @@
  * https://trufflesuite.com/docs/truffle/getting-started/using-the-truffle-dashboard/
  */
 
-// require('dotenv').config();
-// const { MNEMONIC, PROJECT_ID } = process.env;
-
-// const HDWalletProvider = require('@truffle/hdwallet-provider');
-
-const HDWalletProvider = require('@truffle/hdwallet-provider');
 require('dotenv').config();
+const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 module.exports = {
   /**
@@ -67,11 +62,11 @@ module.exports = {
       network_id: "*"
     },
     sepolia: {
-      network_id: "11155111",
       provider: () => new HDWalletProvider(
         process.env.SEPOLIA_PRIVATE_KEY,
         "https://eth-sepolia.public.blastapi.io"
       ),
+      network_id: "11155111",
       networkCheckTimeout: 10000,
       timeoutBlocks: 200,
       gas: 5500000,
@@ -111,7 +106,6 @@ module.exports = {
     // timeout: 100000
   },
 
-  // Configure your compilers
   compilers: {
     solc: {
       version: "0.4.9",
