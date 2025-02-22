@@ -28,6 +28,6 @@
   ],
   "tokens": [
     {"addr":"0x0000000000000000000000000000000000000000","name":"ETH","decimals":18},
-    {"addr":"0x584Eb690150fCFE613926E5191CaAAe75e15aAf6","name":"TEST","decimals":18}
+    {"addr":"0xf984Fb17D8fFB70a12075c5b0Cbc259459aa0d9f","name":"YUL","decimals":18}
   ]
 }
